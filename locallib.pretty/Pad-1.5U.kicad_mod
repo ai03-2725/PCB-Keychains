@@ -1,10 +1,10 @@
-(module Pad-1U (layer F.Cu) (tedit 5C0880A6)
+(module Pad-1.5U (layer F.Cu) (tedit 5C0880F4)
   (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+  (fp_text value Pad-1.5U (at 0 -0.5) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (pad "" smd rect (at 0 0) (size 1.5 1.5) (layers F.Mask)
+  (pad "" smd rect (at 0 0) (size 2.4525 1.5) (layers F.Mask)
     (solder_mask_margin -0.1))
 )
