@@ -2,10 +2,10 @@
 
   (general
     (thickness 1.6)
-    (drawings 138)
+    (drawings 151)
     (tracks 0)
     (zones 0)
-    (modules 911)
+    (modules 995)
     (nets 1)
   )
 
@@ -100,8 +100,944 @@
     (uvia_drill 0.1)
   )
 
+  (module locallib:Pad-1.25U (layer F.Cu) (tedit 5C08845E) (tstamp 5C08D231)
+    (at 68.10375 129.54)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1.25U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3.9525 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08D22D)
+    (at 63.8175 129.54)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1.25U (layer F.Cu) (tedit 5C08845E) (tstamp 5C08D229)
+    (at 59.53125 129.54)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1.25U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3.9525 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CE60)
+    (at 59.055 118.11)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CE5C)
+    (at 63.8175 121.92)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CE58)
+    (at 58.1025 125.73)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CE54)
+    (at 27.6225 125.73)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CE50)
+    (at 61.9125 125.73)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CE48)
+    (at 33.3375 121.92)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CE44)
+    (at 48.5775 121.92)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CE40)
+    (at 35.2425 125.73)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CE3C)
+    (at 60.0075 121.92)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CE38)
+    (at 62.865 118.11)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CE34)
+    (at 32.385 118.11)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CE30)
+    (at 47.625 118.11)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CE2C)
+    (at 52.3875 121.92)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CE28)
+    (at 19.05 114.3)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CE24)
+    (at 31.4325 125.73)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-7U (layer F.Cu) (tedit 5C0884CD) (tstamp 5C08CE20)
+    (at 43.815 129.54)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-7U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 25.86 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1.75U (layer F.Cu) (tedit 5C08847B) (tstamp 5C08CE1C)
+    (at 20.47875 121.92)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1.75U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 5.8575 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CE18)
+    (at 44.7675 121.92)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1.5U (layer F.Cu) (tedit 5C08853F) (tstamp 5C08CE10)
+    (at 71.4375 118.11)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1.5U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 4.905 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CE0C)
+    (at 40.9575 121.92)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CE08)
+    (at 37.1475 121.92)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CE04)
+    (at 40.005 118.11)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CE00)
+    (at 29.5275 121.92)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CDFC)
+    (at 55.245 118.11)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CDF8)
+    (at 25.7175 121.92)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CDF4)
+    (at 49.53 114.3)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CDF0)
+    (at 42.8625 125.73)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-2U (layer F.Cu) (tedit 5C08848A) (tstamp 5C08CDEC)
+    (at 70.485 114.3)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-2U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 6.81 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CDE8)
+    (at 81.915 114.3)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-2.25U (layer F.Cu) (tedit 5C088496) (tstamp 5C08CDE4)
+    (at 70.00875 121.92)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-2.25U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 7.7625 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CDE0)
+    (at 73.3425 130.4925)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-2.25U (layer F.Cu) (tedit 5C088496) (tstamp 5C08CDDC)
+    (at 21.43125 125.73)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-2.25U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 7.7625 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CDD8)
+    (at 54.2925 125.73)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CDD4)
+    (at 89.535 114.3)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CDD0)
+    (at 80.9625 130.4925)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CDCC)
+    (at 50.4825 125.73)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CDC4)
+    (at 77.1525 126.6825)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CDC0)
+    (at 56.1975 121.92)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CDBC)
+    (at 46.6725 125.73)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CDB8)
+    (at 22.86 114.3)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CDB4)
+    (at 26.67 114.3)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CDB0)
+    (at 77.1525 130.4925)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CDAC)
+    (at 39.0525 125.73)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CDA8)
+    (at 85.725 118.11)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CDA0)
+    (at 81.915 118.11)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CD9C)
+    (at 89.535 118.11)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CD98)
+    (at 24.765 118.11)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CD94)
+    (at 38.1 114.3)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CD90)
+    (at 85.725 114.3)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CD8C)
+    (at 57.15 114.3)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CD88)
+    (at 30.48 114.3)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CD84)
+    (at 60.96 114.3)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CD80)
+    (at 51.435 118.11)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CD7C)
+    (at 89.535 129.54)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CD78)
+    (at 85.725 129.54)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CD74)
+    (at 34.29 114.3)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CD70)
+    (at 28.575 118.11)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CD6C)
+    (at 45.72 114.3)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CD68)
+    (at 43.815 118.11)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CD64)
+    (at 93.345 114.3)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CD60)
+    (at 53.34 114.3)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CD5C)
+    (at 66.675 118.11)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CD58)
+    (at 85.725 121.92)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CD54)
+    (at 89.535 125.73)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CD50)
+    (at 93.345 121.92)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CD4C)
+    (at 41.91 114.3)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CD48)
+    (at 85.725 125.73)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CD44)
+    (at 64.77 114.3)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1.5U (layer F.Cu) (tedit 5C08853F) (tstamp 5C08CD40)
+    (at 20.0025 118.11)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1.5U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 4.905 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CD3C)
+    (at 81.915 121.92)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CD38)
+    (at 81.915 125.73)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CD34)
+    (at 36.195 118.11)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CD30)
+    (at 93.345 118.11)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CD2C)
+    (at 89.535 121.92)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-2U (layer F.Cu) (tedit 5C08848A) (tstamp 5C08CD25)
+    (at 93.345 127.635 90)
+    (fp_text reference REF** (at 0 0.5 90) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-2U (at 0 -0.5 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0 90) (size 6.81 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CC72)
-    (at 351.4725 19.05)
+    (at 271.4625 46.6725)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -113,7 +1049,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CC6E)
-    (at 351.4725 22.86)
+    (at 271.4625 50.4825)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -125,7 +1061,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CC6A)
-    (at 351.4725 30.48)
+    (at 271.4625 58.1025)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -137,7 +1073,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CC66)
-    (at 336.2325 19.05)
+    (at 256.2225 46.6725)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -149,7 +1085,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CC62)
-    (at 332.4225 26.67)
+    (at 252.4125 54.2925)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -161,7 +1097,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CC5E)
-    (at 343.8525 26.67)
+    (at 263.8425 54.2925)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -173,7 +1109,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CC5A)
-    (at 332.4225 22.86)
+    (at 252.4125 50.4825)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -185,7 +1121,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CC56)
-    (at 332.4225 19.05)
+    (at 252.4125 46.6725)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -197,7 +1133,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CC52)
-    (at 340.0425 19.05)
+    (at 260.0325 46.6725)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -209,7 +1145,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CC4E)
-    (at 343.8525 19.05)
+    (at 263.8425 46.6725)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -221,7 +1157,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CC4A)
-    (at 351.4725 26.67)
+    (at 271.4625 54.2925)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -233,7 +1169,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CC46)
-    (at 336.2325 26.67)
+    (at 256.2225 54.2925)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -245,7 +1181,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CC42)
-    (at 347.6625 26.67)
+    (at 267.6525 54.2925)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -257,7 +1193,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CC3E)
-    (at 340.0425 22.86)
+    (at 260.0325 50.4825)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -269,7 +1205,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CC3A)
-    (at 336.2325 30.48)
+    (at 256.2225 58.1025)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -281,7 +1217,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CC36)
-    (at 347.6625 30.48)
+    (at 267.6525 58.1025)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -293,7 +1229,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CC32)
-    (at 343.8525 22.86)
+    (at 263.8425 50.4825)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -305,7 +1241,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CC2E)
-    (at 332.4225 30.48)
+    (at 252.4125 58.1025)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -317,7 +1253,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CC2A)
-    (at 347.6625 19.05)
+    (at 267.6525 46.6725)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -329,7 +1265,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CC26)
-    (at 340.0425 26.67)
+    (at 260.0325 54.2925)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -341,7 +1277,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CC22)
-    (at 347.6625 22.86)
+    (at 267.6525 50.4825)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -353,7 +1289,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CC1E)
-    (at 340.0425 30.48)
+    (at 260.0325 58.1025)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -365,7 +1301,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CC1A)
-    (at 336.2325 22.86)
+    (at 256.2225 50.4825)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -377,7 +1313,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CC16)
-    (at 343.8525 30.48)
+    (at 263.8425 58.1025)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -389,7 +1325,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CAEE)
-    (at 304.8 19.05)
+    (at 224.79 46.6725)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -401,7 +1337,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CAEA)
-    (at 320.04 19.05)
+    (at 240.03 46.6725)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -413,7 +1349,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CAE6)
-    (at 320.04 22.86)
+    (at 240.03 50.4825)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -425,7 +1361,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CAE2)
-    (at 316.23 19.05)
+    (at 236.22 46.6725)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -437,7 +1373,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CADE)
-    (at 300.99 22.86)
+    (at 220.98 50.4825)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -449,7 +1385,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CADA)
-    (at 300.99 19.05)
+    (at 220.98 46.6725)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -461,7 +1397,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CAD6)
-    (at 308.61 19.05)
+    (at 228.6 46.6725)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -473,7 +1409,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CAD2)
-    (at 312.42 19.05)
+    (at 232.41 46.6725)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -485,7 +1421,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CACE)
-    (at 300.99 26.67)
+    (at 220.98 54.2925)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -497,7 +1433,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CACA)
-    (at 312.42 22.86)
+    (at 232.41 50.4825)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -509,7 +1445,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CAC6)
-    (at 320.04 26.67)
+    (at 240.03 54.2925)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -521,7 +1457,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CAC2)
-    (at 304.8 26.67)
+    (at 224.79 54.2925)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -533,7 +1469,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CABE)
-    (at 312.42 26.67)
+    (at 232.41 54.2925)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -545,7 +1481,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CABA)
-    (at 316.23 26.67)
+    (at 236.22 54.2925)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -557,7 +1493,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CAB6)
-    (at 304.8 22.86)
+    (at 224.79 50.4825)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -569,7 +1505,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CAB2)
-    (at 316.23 22.86)
+    (at 236.22 50.4825)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -581,7 +1517,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CAAE)
-    (at 308.61 22.86)
+    (at 228.6 50.4825)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -593,7 +1529,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CAAA)
-    (at 316.23 30.48)
+    (at 236.22 58.1025)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -605,7 +1541,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CAA6)
-    (at 304.8 30.48)
+    (at 224.79 58.1025)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -617,7 +1553,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CAA2)
-    (at 312.42 30.48)
+    (at 232.41 58.1025)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -629,7 +1565,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CA9E)
-    (at 308.61 30.48)
+    (at 228.6 58.1025)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -641,7 +1577,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CA9A)
-    (at 308.61 26.67)
+    (at 228.6 54.2925)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -653,7 +1589,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CA96)
-    (at 300.99 30.48)
+    (at 220.98 58.1025)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -665,7 +1601,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08C341)
-    (at 321.945 71.247 30)
+    (at 257.65125 136.49325 30)
     (fp_text reference REF** (at 0 0.5 30) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -677,7 +1613,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08C33D)
-    (at 318.16675 64.643 30)
+    (at 253.873 129.88925 30)
     (fp_text reference REF** (at 0 0.5 30) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -689,7 +1625,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08C339)
-    (at 321.46875 62.738 30)
+    (at 257.175 127.98425 30)
     (fp_text reference REF** (at 0 0.5 30) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -701,7 +1637,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08C335)
-    (at 320.07175 67.945 30)
+    (at 255.778 133.19125 30)
     (fp_text reference REF** (at 0 0.5 30) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -713,7 +1649,7 @@
   )
 
   (module locallib:Pad-2U (layer F.Cu) (tedit 5C08848A) (tstamp 5C08C331)
-    (at 324.32625 67.6275 300)
+    (at 260.0325 132.87375 300)
     (fp_text reference REF** (at 0 0.5 300) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -725,7 +1661,7 @@
   )
 
   (module locallib:Pad-2U (layer F.Cu) (tedit 5C08848A) (tstamp 5C08C32D)
-    (at 327.66 65.7225 300)
+    (at 263.36625 130.96875 300)
     (fp_text reference REF** (at 0 0.5 300) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -737,7 +1673,7 @@
   )
 
   (module locallib:Pad-1.5U (layer F.Cu) (tedit 5C08853F) (tstamp 5C08C329)
-    (at 345.28125 49.05375 180)
+    (at 280.9875 114.3 180)
     (fp_text reference REF** (at 0 0.5 180) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -749,7 +1685,7 @@
   )
 
   (module locallib:Pad-1.5U (layer F.Cu) (tedit 5C08853F) (tstamp 5C08C325)
-    (at 345.28125 56.67375 180)
+    (at 280.9875 121.92 180)
     (fp_text reference REF** (at 0 0.5 180) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -761,7 +1697,7 @@
   )
 
   (module locallib:Pad-1.5U (layer F.Cu) (tedit 5C08853F) (tstamp 5C08C321)
-    (at 345.28125 60.48375 180)
+    (at 280.9875 125.73 180)
     (fp_text reference REF** (at 0 0.5 180) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -773,7 +1709,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08C31D)
-    (at 344.32875 64.29375 180)
+    (at 280.035 129.54 180)
     (fp_text reference REF** (at 0 0.5 180) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -785,7 +1721,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08C319)
-    (at 336.70875 63.34125 180)
+    (at 272.415 128.5875 180)
     (fp_text reference REF** (at 0 0.5 180) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -797,7 +1733,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08C315)
-    (at 340.51875 64.29375 180)
+    (at 276.225 129.54 180)
     (fp_text reference REF** (at 0 0.5 180) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -809,7 +1745,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08C311)
-    (at 332.89875 62.865 180)
+    (at 268.605 128.11125 180)
     (fp_text reference REF** (at 0 0.5 180) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -821,7 +1757,7 @@
   )
 
   (module locallib:Pad-1.5U (layer F.Cu) (tedit 5C08853F) (tstamp 5C08C30D)
-    (at 345.28125 52.86375 180)
+    (at 280.9875 118.11 180)
     (fp_text reference REF** (at 0 0.5 180) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -833,7 +1769,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08C309)
-    (at 340.51875 60.48375 180)
+    (at 276.225 125.73 180)
     (fp_text reference REF** (at 0 0.5 180) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -845,7 +1781,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08C305)
-    (at 340.51875 56.67375 180)
+    (at 276.225 121.92 180)
     (fp_text reference REF** (at 0 0.5 180) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -857,7 +1793,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08C301)
-    (at 329.08875 48.10125 180)
+    (at 264.795 113.3475 180)
     (fp_text reference REF** (at 0 0.5 180) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -869,7 +1805,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08C2FD)
-    (at 332.89875 55.245 180)
+    (at 268.605 120.49125 180)
     (fp_text reference REF** (at 0 0.5 180) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -881,7 +1817,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08C2F9)
-    (at 340.51875 52.86375 180)
+    (at 276.225 118.11 180)
     (fp_text reference REF** (at 0 0.5 180) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -893,7 +1829,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08C2F5)
-    (at 340.51875 49.05375 180)
+    (at 276.225 114.3 180)
     (fp_text reference REF** (at 0 0.5 180) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -905,7 +1841,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08C2F1)
-    (at 332.89875 51.435 180)
+    (at 268.605 116.68125 180)
     (fp_text reference REF** (at 0 0.5 180) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -917,7 +1853,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08C2ED)
-    (at 325.27875 48.5775 180)
+    (at 260.985 113.82375 180)
     (fp_text reference REF** (at 0 0.5 180) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -929,7 +1865,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08C2E9)
-    (at 332.89875 47.625 180)
+    (at 268.605 112.87125 180)
     (fp_text reference REF** (at 0 0.5 180) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -941,7 +1877,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08C2E5)
-    (at 336.70875 51.91125 180)
+    (at 272.415 117.1575 180)
     (fp_text reference REF** (at 0 0.5 180) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -953,7 +1889,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08C2E1)
-    (at 329.08875 51.91125 180)
+    (at 264.795 117.1575 180)
     (fp_text reference REF** (at 0 0.5 180) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -965,7 +1901,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08C2DD)
-    (at 336.70875 48.10125 180)
+    (at 272.415 113.3475 180)
     (fp_text reference REF** (at 0 0.5 180) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -977,7 +1913,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08C2D9)
-    (at 325.27875 56.1975 180)
+    (at 260.985 121.44375 180)
     (fp_text reference REF** (at 0 0.5 180) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -989,7 +1925,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08C2D5)
-    (at 325.27875 52.3875 180)
+    (at 260.985 117.63375 180)
     (fp_text reference REF** (at 0 0.5 180) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1001,7 +1937,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08C2D1)
-    (at 336.70875 55.72125 180)
+    (at 272.415 120.9675 180)
     (fp_text reference REF** (at 0 0.5 180) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1013,7 +1949,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08C2CD)
-    (at 332.89875 59.055 180)
+    (at 268.605 124.30125 180)
     (fp_text reference REF** (at 0 0.5 180) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1025,7 +1961,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08C2C9)
-    (at 325.27875 60.0075 180)
+    (at 260.985 125.25375 180)
     (fp_text reference REF** (at 0 0.5 180) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1037,7 +1973,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08C2C5)
-    (at 329.08875 59.53125 180)
+    (at 264.795 124.7775 180)
     (fp_text reference REF** (at 0 0.5 180) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1049,7 +1985,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08C2C1)
-    (at 329.08875 55.72125 180)
+    (at 264.795 120.9675 180)
     (fp_text reference REF** (at 0 0.5 180) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1061,7 +1997,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08C2BD)
-    (at 336.70875 59.53125 180)
+    (at 272.415 124.7775 180)
     (fp_text reference REF** (at 0 0.5 180) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1073,7 +2009,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08B6AD)
-    (at 280.51125 64.29375)
+    (at 216.2175 129.54)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1085,7 +2021,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08B6A5)
-    (at 288.13125 62.865)
+    (at 223.8375 128.11125)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1097,7 +2033,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08B6A1)
-    (at 284.32125 63.34125)
+    (at 220.0275 128.5875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1109,7 +2045,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08B4D3)
-    (at 284.32125 48.10125)
+    (at 220.0275 113.3475)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1121,7 +2057,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08B4CB)
-    (at 288.13125 47.625)
+    (at 223.8375 112.87125)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1133,7 +2069,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08B4C7)
-    (at 295.75125 48.5775)
+    (at 231.4575 113.82375)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1145,7 +2081,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08B4C3)
-    (at 280.51125 49.05375)
+    (at 216.2175 114.3)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1157,7 +2093,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08B4BF)
-    (at 291.94125 48.10125)
+    (at 227.6475 113.3475)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1169,7 +2105,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08B4BB)
-    (at 291.94125 51.91125)
+    (at 227.6475 117.1575)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1181,7 +2117,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08B4B3)
-    (at 288.13125 51.435)
+    (at 223.8375 116.68125)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1193,7 +2129,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08B4AF)
-    (at 288.13125 55.245)
+    (at 223.8375 120.49125)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1205,7 +2141,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08B4AB)
-    (at 284.32125 51.91125)
+    (at 220.0275 117.1575)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1217,7 +2153,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08B4A7)
-    (at 280.51125 52.86375)
+    (at 216.2175 118.11)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1229,7 +2165,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08B4A3)
-    (at 295.75125 56.1975)
+    (at 231.4575 121.44375)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1241,7 +2177,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08B49F)
-    (at 295.75125 52.3875)
+    (at 231.4575 117.63375)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1253,7 +2189,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08B493)
-    (at 280.51125 56.67375)
+    (at 216.2175 121.92)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1265,7 +2201,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08B48F)
-    (at 288.13125 59.055)
+    (at 223.8375 124.30125)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1277,7 +2213,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08B48B)
-    (at 295.75125 60.0075)
+    (at 231.4575 125.25375)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1289,7 +2225,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08B487)
-    (at 291.94125 59.53125)
+    (at 227.6475 124.7775)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1301,7 +2237,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08B483)
-    (at 291.94125 55.72125)
+    (at 227.6475 120.9675)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1313,7 +2249,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08B47F)
-    (at 284.32125 59.53125)
+    (at 220.0275 124.7775)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1325,7 +2261,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08B47B)
-    (at 284.32125 55.72125)
+    (at 220.0275 120.9675)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1337,7 +2273,7 @@
   )
 
   (module locallib:Pad-1.5U (layer F.Cu) (tedit 5C08853F) (tstamp 5C08AB99)
-    (at 208.5975 89.05875)
+    (at 102.87 89.05875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1349,7 +2285,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08AB95)
-    (at 263.8425 96.67875)
+    (at 158.115 96.67875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1361,7 +2297,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08AB91)
-    (at 232.41 89.05875)
+    (at 126.6825 89.05875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1373,7 +2309,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08AB8D)
-    (at 263.8425 92.86875)
+    (at 158.115 92.86875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1385,7 +2321,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08AB89)
-    (at 224.79 89.05875)
+    (at 119.0625 89.05875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1397,7 +2333,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08AB85)
-    (at 241.935 85.24875)
+    (at 136.2075 85.24875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1409,7 +2345,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08AB81)
-    (at 255.27 89.05875)
+    (at 149.5425 89.05875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1421,7 +2357,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08AB7D)
-    (at 219.075 85.24875)
+    (at 113.3475 85.24875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1433,7 +2369,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08AB79)
-    (at 215.265 85.24875)
+    (at 109.5375 85.24875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1445,7 +2381,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08AB75)
-    (at 245.745 85.24875)
+    (at 140.0175 85.24875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1457,7 +2393,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08AB54)
-    (at 248.6025 92.86875)
+    (at 142.875 92.86875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1469,7 +2405,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08AB50)
-    (at 214.3125 92.86875)
+    (at 108.585 92.86875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1481,7 +2417,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08AB4C)
-    (at 240.9825 92.86875)
+    (at 135.255 92.86875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1493,7 +2429,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08AB48)
-    (at 223.8375 96.67875)
+    (at 118.11 96.67875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1505,7 +2441,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08AB44)
-    (at 240.03 89.05875)
+    (at 134.3025 89.05875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1517,7 +2453,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08AB40)
-    (at 250.5075 96.67875)
+    (at 144.78 96.67875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1529,7 +2465,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08AB3C)
-    (at 239.0775 96.67875)
+    (at 133.35 96.67875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1541,7 +2477,7 @@
   )
 
   (module locallib:Pad-1.75U (layer F.Cu) (tedit 5C08847B) (tstamp 5C08AB38)
-    (at 209.07375 92.86875)
+    (at 103.34625 92.86875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1553,7 +2489,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08AB34)
-    (at 253.365 85.24875)
+    (at 147.6375 85.24875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1565,7 +2501,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08AB30)
-    (at 251.46 89.05875)
+    (at 145.7325 89.05875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1577,7 +2513,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08AB28)
-    (at 220.98 89.05875)
+    (at 115.2525 89.05875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1589,7 +2525,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08AB24)
-    (at 221.9325 92.86875)
+    (at 116.205 92.86875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1601,7 +2537,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08AB20)
-    (at 246.6975 96.67875)
+    (at 140.97 96.67875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1613,7 +2549,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08AB1C)
-    (at 218.1225 92.86875)
+    (at 112.395 92.86875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1625,7 +2561,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08AB18)
-    (at 263.8425 100.48875)
+    (at 158.115 100.48875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1637,7 +2573,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08AB14)
-    (at 247.65 89.05875)
+    (at 141.9225 89.05875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1649,7 +2585,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08AB10)
-    (at 259.08 89.05875)
+    (at 153.3525 89.05875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1661,7 +2597,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08AB0C)
-    (at 243.84 89.05875)
+    (at 138.1125 89.05875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1673,7 +2609,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08AB08)
-    (at 263.8425 85.24875)
+    (at 158.115 85.24875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1685,7 +2621,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08AB04)
-    (at 222.885 85.24875)
+    (at 117.1575 85.24875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1697,7 +2633,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08AB00)
-    (at 230.505 85.24875)
+    (at 124.7775 85.24875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1709,7 +2645,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08AAFC)
-    (at 229.5525 92.86875)
+    (at 123.825 92.86875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1721,7 +2657,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08AAF8)
-    (at 220.0275 96.67875)
+    (at 114.3 96.67875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1733,7 +2669,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08AAF4)
-    (at 216.2175 96.67875)
+    (at 110.49 96.67875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1745,7 +2681,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08AAF0)
-    (at 237.1725 92.86875)
+    (at 131.445 92.86875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1757,7 +2693,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08AAEC)
-    (at 236.22 89.05875)
+    (at 130.4925 89.05875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1769,7 +2705,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08AAE8)
-    (at 260.0325 96.67875)
+    (at 154.305 96.67875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1781,7 +2717,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08AAE4)
-    (at 252.4125 92.86875)
+    (at 146.685 92.86875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1793,7 +2729,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08AAE0)
-    (at 207.645 85.24875)
+    (at 101.9175 85.24875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1805,7 +2741,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08AADC)
-    (at 217.17 89.05875)
+    (at 111.4425 89.05875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1817,7 +2753,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08AAD8)
-    (at 228.6 89.05875)
+    (at 122.8725 89.05875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1829,7 +2765,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08AAD4)
-    (at 233.3625 92.86875)
+    (at 127.635 92.86875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1841,7 +2777,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08AAD0)
-    (at 244.7925 92.86875)
+    (at 139.065 92.86875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1853,7 +2789,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08AACC)
-    (at 256.2225 100.48875)
+    (at 150.495 100.48875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1865,7 +2801,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08AAC8)
-    (at 213.36 89.05875)
+    (at 107.6325 89.05875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1877,7 +2813,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08AAC4)
-    (at 227.6475 96.67875)
+    (at 121.92 96.67875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1889,7 +2825,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08AAC0)
-    (at 260.0325 100.48875)
+    (at 154.305 100.48875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1901,7 +2837,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08AAB4)
-    (at 231.4575 96.67875)
+    (at 125.73 96.67875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1913,7 +2849,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08AAB0)
-    (at 238.125 85.24875)
+    (at 132.3975 85.24875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1925,7 +2861,7 @@
   )
 
   (module locallib:Pad-2.25U (layer F.Cu) (tedit 5C088496) (tstamp 5C08AAAC)
-    (at 210.02625 96.67875)
+    (at 104.29875 96.67875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1937,7 +2873,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08AAA8)
-    (at 211.455 85.24875)
+    (at 105.7275 85.24875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1949,7 +2885,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08AAA4)
-    (at 249.555 85.24875)
+    (at 143.8275 85.24875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1961,7 +2897,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08AAA0)
-    (at 235.2675 96.67875)
+    (at 129.54 96.67875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1973,7 +2909,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08AA9C)
-    (at 225.7425 92.86875)
+    (at 120.015 92.86875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1985,7 +2921,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08AA98)
-    (at 242.8875 96.67875)
+    (at 137.16 96.67875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1997,7 +2933,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08AA94)
-    (at 226.695 85.24875)
+    (at 120.9675 85.24875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2009,7 +2945,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08AA90)
-    (at 234.315 85.24875)
+    (at 128.5875 85.24875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2021,7 +2957,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08A9FF)
-    (at 281.94 89.05875)
+    (at 176.2125 89.05875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2033,7 +2969,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08A9FB)
-    (at 278.13 92.86875)
+    (at 172.4025 92.86875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2045,7 +2981,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08A9F7)
-    (at 278.13 85.24875)
+    (at 172.4025 85.24875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2057,7 +2993,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08A9F3)
-    (at 278.13 96.67875)
+    (at 172.4025 96.67875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2069,7 +3005,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08A9EF)
-    (at 281.94 85.24875)
+    (at 176.2125 85.24875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2081,7 +3017,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08A9EB)
-    (at 281.94 92.86875)
+    (at 176.2125 92.86875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2093,7 +3029,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08A9E7)
-    (at 270.51 92.86875)
+    (at 164.7825 92.86875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2105,7 +3041,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08A9E3)
-    (at 274.32 96.67875)
+    (at 168.5925 96.67875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2117,7 +3053,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08A9DF)
-    (at 270.51 89.05875)
+    (at 164.7825 89.05875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2129,7 +3065,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08A9DB)
-    (at 274.32 92.86875)
+    (at 168.5925 92.86875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2141,7 +3077,7 @@
   )
 
   (module locallib:Pad-2U (layer F.Cu) (tedit 5C08848A) (tstamp 5C08A9D7)
-    (at 281.94 98.58375 90)
+    (at 176.2125 98.58375 90)
     (fp_text reference REF** (at 0 0.5 90) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2153,7 +3089,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08A9D3)
-    (at 270.51 85.24875)
+    (at 164.7825 85.24875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2165,7 +3101,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08A9CF)
-    (at 278.13 89.05875)
+    (at 172.4025 89.05875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2177,7 +3113,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08A9CB)
-    (at 270.51 96.67875)
+    (at 164.7825 96.67875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2189,7 +3125,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08A9C7)
-    (at 278.13 100.48875)
+    (at 172.4025 100.48875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2201,7 +3137,7 @@
   )
 
   (module locallib:Pad-2U (layer F.Cu) (tedit 5C08848A) (tstamp 5C08A9C3)
-    (at 272.415 100.48875 180)
+    (at 166.6875 100.48875 180)
     (fp_text reference REF** (at 0 0.5 180) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2213,7 +3149,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08A9BF)
-    (at 274.32 85.24875)
+    (at 168.5925 85.24875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2225,7 +3161,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08A9BB)
-    (at 274.32 89.05875)
+    (at 168.5925 89.05875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2237,7 +3173,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08A9AA)
-    (at 278.13 79.0575)
+    (at 172.4025 79.0575)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2249,7 +3185,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08A9A6)
-    (at 281.94 79.0575)
+    (at 176.2125 79.0575)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2261,7 +3197,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08A970)
-    (at 264.31875 79.0575)
+    (at 158.59125 79.0575)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2273,7 +3209,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08A96C)
-    (at 271.93875 79.0575)
+    (at 166.21125 79.0575)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2285,7 +3221,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08A968)
-    (at 268.12875 79.0575)
+    (at 162.40125 79.0575)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2297,7 +3233,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08A964)
-    (at 260.50875 79.0575)
+    (at 154.78125 79.0575)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2309,7 +3245,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08A960)
-    (at 242.8875 79.0575)
+    (at 137.16 79.0575)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2321,7 +3257,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08A95C)
-    (at 250.5075 79.0575)
+    (at 144.78 79.0575)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2333,7 +3269,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08A958)
-    (at 254.3175 79.0575)
+    (at 148.59 79.0575)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2345,7 +3281,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08A954)
-    (at 246.6975 79.0575)
+    (at 140.97 79.0575)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2357,7 +3293,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08A91D)
-    (at 232.88625 79.0575)
+    (at 127.15875 79.0575)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2369,7 +3305,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08A919)
-    (at 236.69625 79.0575)
+    (at 130.96875 79.0575)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2381,7 +3317,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08A915)
-    (at 225.26625 79.0575)
+    (at 119.53875 79.0575)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2393,7 +3329,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08A911)
-    (at 229.07625 79.0575)
+    (at 123.34875 79.0575)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2405,7 +3341,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08A91D)
-    (at 215.265 79.0575)
+    (at 109.5375 79.0575)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2417,7 +3353,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08A919)
-    (at 219.075 79.0575)
+    (at 113.3475 79.0575)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2429,7 +3365,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08A915)
-    (at 207.645 79.0575)
+    (at 101.9175 79.0575)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2441,7 +3377,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08A911)
-    (at 211.455 79.0575)
+    (at 105.7275 79.0575)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2453,7 +3389,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089DB2)
-    (at 115.2525 79.0575)
+    (at 201.93 75.72375)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2465,7 +3401,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089DAE)
-    (at 149.5425 79.0575)
+    (at 236.22 75.72375)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2477,7 +3413,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089DAA)
-    (at 130.4925 79.0575)
+    (at 217.17 75.72375)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2489,7 +3425,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089DA6)
-    (at 122.8725 79.0575)
+    (at 209.55 75.72375)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2501,7 +3437,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089DA2)
-    (at 126.6825 79.0575)
+    (at 213.36 75.72375)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2513,7 +3449,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089D9E)
-    (at 138.1125 79.0575)
+    (at 224.79 75.72375)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2525,7 +3461,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089D9A)
-    (at 141.9225 79.0575)
+    (at 228.6 75.72375)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2537,7 +3473,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089D96)
-    (at 157.1625 79.0575)
+    (at 243.84 75.72375)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2549,7 +3485,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089D92)
-    (at 153.3525 79.0575)
+    (at 240.03 75.72375)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2561,7 +3497,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089D8E)
-    (at 145.7325 79.0575)
+    (at 232.41 75.72375)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2573,7 +3509,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089D8A)
-    (at 119.0625 79.0575)
+    (at 205.74 75.72375)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2585,7 +3521,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089D86)
-    (at 134.3025 79.0575)
+    (at 220.98 75.72375)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2597,7 +3533,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089DB2)
-    (at 115.2525 82.8675)
+    (at 201.93 79.53375)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2609,7 +3545,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089DAE)
-    (at 149.5425 82.8675)
+    (at 236.22 79.53375)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2621,7 +3557,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089DAA)
-    (at 130.4925 82.8675)
+    (at 217.17 79.53375)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2633,7 +3569,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089DA6)
-    (at 122.8725 82.8675)
+    (at 209.55 79.53375)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2645,7 +3581,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089DA2)
-    (at 126.6825 82.8675)
+    (at 213.36 79.53375)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2657,7 +3593,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089D9E)
-    (at 138.1125 82.8675)
+    (at 224.79 79.53375)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2669,7 +3605,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089D9A)
-    (at 141.9225 82.8675)
+    (at 228.6 79.53375)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2681,7 +3617,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089D96)
-    (at 157.1625 82.8675)
+    (at 243.84 79.53375)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2693,7 +3629,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089D92)
-    (at 153.3525 82.8675)
+    (at 240.03 79.53375)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2705,7 +3641,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089D8E)
-    (at 145.7325 82.8675)
+    (at 232.41 79.53375)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2717,7 +3653,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089D8A)
-    (at 119.0625 82.8675)
+    (at 205.74 79.53375)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2729,7 +3665,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089D86)
-    (at 134.3025 82.8675)
+    (at 220.98 79.53375)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2741,7 +3677,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089CE5)
-    (at 191.4525 103.8225)
+    (at 278.13 100.48875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2753,7 +3689,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089CE1)
-    (at 191.4525 96.2025)
+    (at 278.13 92.86875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2765,7 +3701,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089CD9)
-    (at 191.4525 88.5825)
+    (at 278.13 85.24875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2777,7 +3713,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089CD5)
-    (at 191.4525 92.3925)
+    (at 278.13 89.05875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2789,7 +3725,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089CCD)
-    (at 191.4525 100.0125)
+    (at 278.13 96.67875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2801,7 +3737,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089CC9)
-    (at 195.2625 88.5825)
+    (at 281.94 85.24875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2813,7 +3749,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089CE9)
-    (at 187.6425 103.8225)
+    (at 274.32 100.48875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2825,7 +3761,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089CE5)
-    (at 183.8325 103.8225)
+    (at 270.51 100.48875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2837,7 +3773,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089CE1)
-    (at 183.8325 96.2025)
+    (at 270.51 92.86875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2849,7 +3785,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089CDD)
-    (at 187.6425 100.0125)
+    (at 274.32 96.67875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2861,7 +3797,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089CD9)
-    (at 183.8325 88.5825)
+    (at 270.51 85.24875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2873,7 +3809,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089CD5)
-    (at 183.8325 92.3925)
+    (at 270.51 89.05875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2885,7 +3821,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089CD1)
-    (at 187.6425 96.2025)
+    (at 274.32 92.86875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2897,7 +3833,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089CCD)
-    (at 183.8325 100.0125)
+    (at 270.51 96.67875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2909,7 +3845,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089CC9)
-    (at 187.6425 88.5825)
+    (at 274.32 85.24875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2921,7 +3857,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089CC5)
-    (at 187.6425 92.3925)
+    (at 274.32 89.05875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2933,7 +3869,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089CBA)
-    (at 174.3075 103.8225)
+    (at 260.985 100.48875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2945,7 +3881,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089C3E)
-    (at 101.9175 88.5825)
+    (at 188.595 85.24875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2957,7 +3893,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089C3A)
-    (at 101.9175 92.3925)
+    (at 188.595 89.05875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2969,7 +3905,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089C36)
-    (at 105.7275 103.8225)
+    (at 192.405 100.48875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2981,7 +3917,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089C32)
-    (at 101.9175 96.2025)
+    (at 188.595 92.86875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2993,7 +3929,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089C2E)
-    (at 105.7275 96.2025)
+    (at 192.405 92.86875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3005,7 +3941,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089C2A)
-    (at 101.9175 100.0125)
+    (at 188.595 96.67875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3017,7 +3953,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089C26)
-    (at 105.7275 88.5825)
+    (at 192.405 85.24875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3029,7 +3965,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089C22)
-    (at 105.7275 100.0125)
+    (at 192.405 96.67875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3041,7 +3977,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089C1E)
-    (at 101.9175 103.8225)
+    (at 188.595 100.48875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3053,7 +3989,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089C1A)
-    (at 105.7275 92.3925)
+    (at 192.405 89.05875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3065,7 +4001,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089A1D)
-    (at 149.5425 88.5825)
+    (at 236.22 85.24875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3077,7 +4013,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089A19)
-    (at 119.0625 88.5825)
+    (at 205.74 85.24875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3089,7 +4025,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089A15)
-    (at 130.4925 88.5825)
+    (at 217.17 85.24875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3101,7 +4037,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089A11)
-    (at 122.8725 88.5825)
+    (at 209.55 85.24875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3113,7 +4049,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089A0D)
-    (at 126.6825 88.5825)
+    (at 213.36 85.24875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3125,7 +4061,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089A09)
-    (at 138.1125 88.5825)
+    (at 224.79 85.24875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3137,7 +4073,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089A05)
-    (at 134.3025 88.5825)
+    (at 220.98 85.24875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3149,7 +4085,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089A01)
-    (at 145.7325 88.5825)
+    (at 232.41 85.24875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3161,7 +4097,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C0899FD)
-    (at 157.1625 88.5825)
+    (at 243.84 85.24875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3173,7 +4109,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C0899F9)
-    (at 128.5875 92.3925)
+    (at 215.265 89.05875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3185,7 +4121,7 @@
   )
 
   (module locallib:Pad-1.5U (layer F.Cu) (tedit 5C08853F) (tstamp 5C0899F5)
-    (at 112.395 92.3925)
+    (at 199.0725 89.05875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3197,7 +4133,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C0899F1)
-    (at 117.1575 92.3925)
+    (at 203.835 89.05875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3209,7 +4145,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C0899ED)
-    (at 152.4 96.2025)
+    (at 239.0775 92.86875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3221,7 +4157,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C0899E9)
-    (at 143.8275 92.3925)
+    (at 230.505 89.05875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3233,7 +4169,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C0899E5)
-    (at 153.3525 88.5825)
+    (at 240.03 85.24875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3245,7 +4181,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C0899E1)
-    (at 121.92 96.2025)
+    (at 208.5975 92.86875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3257,7 +4193,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C0899DD)
-    (at 120.9675 92.3925)
+    (at 207.645 89.05875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3269,7 +4205,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C0899D9)
-    (at 144.78 96.2025)
+    (at 231.4575 92.86875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3281,7 +4217,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C0899D5)
-    (at 159.0675 92.3925)
+    (at 245.745 89.05875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3293,7 +4229,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C0899D1)
-    (at 132.3975 92.3925)
+    (at 219.075 89.05875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3305,7 +4241,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C0899CD)
-    (at 151.4475 92.3925)
+    (at 238.125 89.05875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3317,7 +4253,7 @@
   )
 
   (module locallib:Pad-1.5U (layer F.Cu) (tedit 5C08853F) (tstamp 5C0899C9)
-    (at 163.83 92.3925)
+    (at 250.5075 89.05875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3329,7 +4265,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C0899C5)
-    (at 147.6375 92.3925)
+    (at 234.315 89.05875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3341,7 +4277,7 @@
   )
 
   (module locallib:Pad-2.25U (layer F.Cu) (tedit 5C088496) (tstamp 5C0899C1)
-    (at 162.40125 96.2025)
+    (at 249.07875 92.86875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3353,7 +4289,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C0899BD)
-    (at 129.54 96.2025)
+    (at 216.2175 92.86875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3365,7 +4301,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C0899B9)
-    (at 136.2075 92.3925)
+    (at 222.885 89.05875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3377,7 +4313,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C0899B5)
-    (at 124.7775 92.3925)
+    (at 211.455 89.05875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3389,7 +4325,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C0899B1)
-    (at 140.0175 92.3925)
+    (at 226.695 89.05875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3401,7 +4337,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C0899AD)
-    (at 155.2575 92.3925)
+    (at 241.935 89.05875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3413,7 +4349,7 @@
   )
 
   (module locallib:Pad-1.75U (layer F.Cu) (tedit 5C08847B) (tstamp 5C0899A9)
-    (at 112.87125 96.2025)
+    (at 199.54875 92.86875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3425,7 +4361,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C0899A5)
-    (at 118.11 96.2025)
+    (at 204.7875 92.86875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3437,7 +4373,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C0899A1)
-    (at 156.21 96.2025)
+    (at 242.8875 92.86875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3449,7 +4385,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08999D)
-    (at 125.73 96.2025)
+    (at 212.4075 92.86875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3461,7 +4397,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089999)
-    (at 140.97 96.2025)
+    (at 227.6475 92.86875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3473,7 +4409,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089995)
-    (at 141.9225 88.5825)
+    (at 228.6 85.24875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3485,7 +4421,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089991)
-    (at 148.59 96.2025)
+    (at 235.2675 92.86875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3497,7 +4433,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08998D)
-    (at 137.16 96.2025)
+    (at 223.8375 92.86875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3509,7 +4445,7 @@
   )
 
   (module locallib:Pad-2U (layer F.Cu) (tedit 5C08848A) (tstamp 5C089989)
-    (at 162.8775 88.5825)
+    (at 249.555 85.24875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3521,7 +4457,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089985)
-    (at 174.3075 92.3925)
+    (at 260.985 89.05875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3533,7 +4469,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089981)
-    (at 170.4975 100.0125)
+    (at 257.175 96.67875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3545,7 +4481,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08997D)
-    (at 142.875 100.0125)
+    (at 229.5525 96.67875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3557,7 +4493,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089979)
-    (at 111.4425 88.5825)
+    (at 198.12 85.24875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3569,7 +4505,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089975)
-    (at 154.305 100.0125)
+    (at 240.9825 96.67875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3581,7 +4517,7 @@
   )
 
   (module locallib:Pad-1.5U (layer F.Cu) (tedit 5C08853F) (tstamp 5C089971)
-    (at 112.395 103.8225)
+    (at 199.0725 100.48875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3593,7 +4529,7 @@
   )
 
   (module locallib:Pad-7U (layer F.Cu) (tedit 5C0884CD) (tstamp 5C089969)
-    (at 138.1125 103.8225)
+    (at 224.79 100.48875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3605,7 +4541,7 @@
   )
 
   (module locallib:Pad-1.5U (layer F.Cu) (tedit 5C08853F) (tstamp 5C089965)
-    (at 154.305 103.8225)
+    (at 240.9825 100.48875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3617,7 +4553,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08995D)
-    (at 139.065 100.0125)
+    (at 225.7425 96.67875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3629,7 +4565,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089959)
-    (at 178.1175 92.3925)
+    (at 264.795 89.05875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3641,7 +4577,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089955)
-    (at 174.3075 100.0125)
+    (at 260.985 96.67875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3653,7 +4589,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089951)
-    (at 123.825 100.0125)
+    (at 210.5025 96.67875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3665,7 +4601,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08994D)
-    (at 135.255 100.0125)
+    (at 221.9325 96.67875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3677,7 +4613,7 @@
   )
 
   (module locallib:Pad-2.75U (layer F.Cu) (tedit 5C0884A5) (tstamp 5C089949)
-    (at 161.44875 100.0125)
+    (at 248.12625 96.67875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3689,7 +4625,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089941)
-    (at 146.685 100.0125)
+    (at 233.3625 96.67875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3701,7 +4637,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08993D)
-    (at 127.635 100.0125)
+    (at 214.3125 96.67875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3713,7 +4649,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089939)
-    (at 150.495 100.0125)
+    (at 237.1725 96.67875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3725,7 +4661,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089935)
-    (at 178.1175 100.0125)
+    (at 264.795 96.67875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3737,7 +4673,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089931)
-    (at 120.015 100.0125)
+    (at 206.6925 96.67875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3749,7 +4685,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08992D)
-    (at 170.4975 88.5825)
+    (at 257.175 85.24875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3761,7 +4697,7 @@
   )
 
   (module locallib:Pad-1.5U (layer F.Cu) (tedit 5C08853F) (tstamp 5C089929)
-    (at 121.92 103.8225)
+    (at 208.5975 100.48875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3773,7 +4709,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089925)
-    (at 178.1175 88.5825)
+    (at 264.795 85.24875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3785,7 +4721,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08991D)
-    (at 174.3075 88.5825)
+    (at 260.985 85.24875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3797,7 +4733,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089919)
-    (at 131.445 100.0125)
+    (at 218.1225 96.67875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3809,7 +4745,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089915)
-    (at 174.3075 96.2025)
+    (at 260.985 92.86875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3821,7 +4757,7 @@
   )
 
   (module locallib:Pad-2.25U (layer F.Cu) (tedit 5C088496) (tstamp 5C089911)
-    (at 113.82375 100.0125)
+    (at 200.50125 96.67875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3833,7 +4769,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08990D)
-    (at 133.35 96.2025)
+    (at 220.0275 92.86875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3845,7 +4781,7 @@
   )
 
   (module locallib:Pad-1.5U (layer F.Cu) (tedit 5C08853F) (tstamp 5C089905)
-    (at 163.83 103.8225)
+    (at 250.5075 100.48875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3857,7 +4793,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C0898FD)
-    (at 170.4975 92.3925)
+    (at 257.175 89.05875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3869,7 +4805,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C0898DD)
-    (at 115.2525 88.5825)
+    (at 201.93 85.24875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -10769,7 +11705,7 @@
   )
 
   (module locallib:Pad-2U (layer F.Cu) (tedit 5C08848A) (tstamp 5C089D74)
-    (at 195.2625 94.2975 90)
+    (at 281.94 90.96375 90)
     (fp_text reference REF** (at 0 0.5 90) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -10781,7 +11717,7 @@
   )
 
   (module locallib:Pad-2U (layer F.Cu) (tedit 5C08848A) (tstamp 5C089D85)
-    (at 195.2625 101.9175 90)
+    (at 281.94 98.58375 90)
     (fp_text reference REF** (at 0 0.5 90) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -10793,7 +11729,7 @@
   )
 
   (module locallib:Pad-1.75U (layer F.Cu) (tedit 5C08847B) (tstamp 5C08AD94)
-    (at 258.60375 85.24875)
+    (at 152.87625 85.24875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -10805,7 +11741,7 @@
   )
 
   (module locallib:Pad-1.25U (layer F.Cu) (tedit 5C08845E) (tstamp 5C08AE97)
-    (at 263.36625 89.05875)
+    (at 157.63875 89.05875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -10817,7 +11753,7 @@
   )
 
   (module locallib:Pad-2U (layer F.Cu) (tedit 5C08848A) (tstamp 5C08AEAD)
-    (at 258.1275 92.86875)
+    (at 152.4 92.86875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -10829,7 +11765,7 @@
   )
 
   (module locallib:Pad-1.5U (layer F.Cu) (tedit 5C08853F) (tstamp 5C08AEC8)
-    (at 255.27 96.67875)
+    (at 149.5425 96.67875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -10841,7 +11777,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08AEF8)
-    (at 252.4125 100.48875)
+    (at 146.685 100.48875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -10853,7 +11789,7 @@
   )
 
   (module locallib:Pad-9.75U (layer F.Cu) (tedit 5C089693) (tstamp 5C08AF9A)
-    (at 231.93375 100.48875)
+    (at 126.20625 100.48875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -10865,7 +11801,7 @@
   )
 
   (module locallib:Pad-2U (layer F.Cu) (tedit 5C08848A) (tstamp 5C08AFC2)
-    (at 209.55 100.48875)
+    (at 103.8225 100.48875)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -10877,7 +11813,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08B60F)
-    (at 280.51125 60.48375)
+    (at 216.2175 125.73)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -10889,7 +11825,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08B6EC)
-    (at 276.70125 64.29375)
+    (at 212.4075 129.54)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -10901,7 +11837,7 @@
   )
 
   (module locallib:Pad-1.5U (layer F.Cu) (tedit 5C08853F) (tstamp 5C08B70D)
-    (at 275.74875 60.48375)
+    (at 211.455 125.73)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -10913,7 +11849,7 @@
   )
 
   (module locallib:Pad-1.5U (layer F.Cu) (tedit 5C08853F) (tstamp 5C08B72E)
-    (at 275.74875 56.67375)
+    (at 211.455 121.92)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -10925,7 +11861,7 @@
   )
 
   (module locallib:Pad-1.5U (layer F.Cu) (tedit 5C08853F) (tstamp 5C08B74F)
-    (at 275.74875 52.86375)
+    (at 211.455 118.11)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -10937,7 +11873,7 @@
   )
 
   (module locallib:Pad-1.5U (layer F.Cu) (tedit 5C08853F) (tstamp 5C08B770)
-    (at 275.74875 49.05375)
+    (at 211.455 114.3)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -10949,7 +11885,7 @@
   )
 
   (module locallib:Pad-2U (layer F.Cu) (tedit 5C08848A) (tstamp 5C08B793)
-    (at 293.37 65.7225 60)
+    (at 229.07625 130.96875 60)
     (fp_text reference REF** (at 0 0.5 60) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -10961,7 +11897,7 @@
   )
 
   (module locallib:Pad-2U (layer F.Cu) (tedit 5C08848A) (tstamp 5C08B7B4)
-    (at 296.70375 67.6275 60)
+    (at 232.41 132.87375 60)
     (fp_text reference REF** (at 0 0.5 60) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -10973,7 +11909,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08B7D5)
-    (at 299.56125 62.738 330)
+    (at 235.2675 127.98425 330)
     (fp_text reference REF** (at 0 0.5 330) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -10985,7 +11921,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08B7F6)
-    (at 302.86325 64.643 330)
+    (at 238.5695 129.88925 330)
     (fp_text reference REF** (at 0 0.5 330) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -10997,7 +11933,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08B817)
-    (at 300.95825 67.945 330)
+    (at 236.6645 133.19125 330)
     (fp_text reference REF** (at 0 0.5 330) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -11009,7 +11945,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08B838)
-    (at 299.085 71.247 330)
+    (at 234.79125 136.49325 330)
     (fp_text reference REF** (at 0 0.5 330) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -11021,7 +11957,7 @@
   )
 
   (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08CB9C)
-    (at 320.04 30.48)
+    (at 240.03 58.1025)
     (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -11032,68 +11968,155 @@
       (solder_mask_margin -0.1))
   )
 
-  (gr_text "Mechanical Keyboards\n\nLet's Split" (at 341.9475 24.765) (layer B.SilkS)
+  (module locallib:Pad-2.75U (layer F.Cu) (tedit 5C0884A5) (tstamp 5C08D0D5)
+    (at 69.05625 125.73)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-2.75U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 9.6675 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08D173)
+    (at 77.1525 114.3)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08D194)
+    (at 77.1525 118.11)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1.25U (layer F.Cu) (tedit 5C08845E) (tstamp 5C08D1C9)
+    (at 19.52625 129.54)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1.25U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3.9525 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08D1EA)
+    (at 23.8125 129.54)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1.25U (layer F.Cu) (tedit 5C08845E) (tstamp 5C08D21E)
+    (at 28.09875 129.54)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1.25U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3.9525 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (gr_line (start 70.96125 131.92125) (end 16.66875 131.92125) (layer Cmts.User) (width 0.15))
+  (gr_line (start 70.96125 132.87375) (end 70.96125 131.92125) (layer Cmts.User) (width 0.15))
+  (gr_line (start 83.34375 132.87375) (end 70.96125 132.87375) (layer Cmts.User) (width 0.15))
+  (gr_line (start 83.34375 131.92125) (end 83.34375 132.87375) (layer Cmts.User) (width 0.15))
+  (gr_line (start 95.72625 131.92125) (end 83.34375 131.92125) (layer Cmts.User) (width 0.15))
+  (gr_line (start 14.76375 133.82625) (end 14.76375 110.01375) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 97.63125 133.82625) (end 14.76375 133.82625) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 97.63125 110.01375) (end 97.63125 133.82625) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 14.76375 110.01375) (end 97.63125 110.01375) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 16.66875 131.92125) (end 16.66875 111.91875) (layer Cmts.User) (width 0.15))
+  (gr_line (start 95.72625 111.91875) (end 95.72625 131.92125) (layer Cmts.User) (width 0.15))
+  (gr_line (start 16.66875 111.91875) (end 95.72625 111.91875) (layer Cmts.User) (width 0.15))
+  (gr_text "Mechanical Keyboards\n\nBlackbird" (at 53.81625 122.39625) (layer B.SilkS) (tstamp 5C08CD2B)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
-  (gr_text "Mechanical Keyboards\n\nLet's Split" (at 310.515 24.765) (layer B.SilkS)
+  (gr_text "Mechanical Keyboards\n\nLet's Split" (at 261.9375 52.3875) (layer B.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
-  (gr_line (start 355.75875 34.76625) (end 328.13625 34.76625) (layer Edge.Cuts) (width 0.15) (tstamp 5C08CC7E))
-  (gr_line (start 328.13625 34.76625) (end 328.13625 14.76375) (layer Edge.Cuts) (width 0.15) (tstamp 5C08CC7D))
-  (gr_line (start 328.13625 14.76375) (end 355.75875 14.76375) (layer Edge.Cuts) (width 0.15) (tstamp 5C08CC7C))
-  (gr_line (start 330.04125 32.86125) (end 330.04125 16.66875) (layer Cmts.User) (width 0.15) (tstamp 5C08CC7B))
-  (gr_line (start 330.04125 16.66875) (end 353.85375 16.66875) (layer Cmts.User) (width 0.15) (tstamp 5C08CC7A))
-  (gr_line (start 353.85375 32.86125) (end 330.04125 32.86125) (layer Cmts.User) (width 0.15) (tstamp 5C08CC79))
-  (gr_line (start 355.75875 14.76375) (end 355.75875 34.76625) (layer Edge.Cuts) (width 0.15) (tstamp 5C08CC78))
-  (gr_line (start 353.85375 16.66875) (end 353.85375 32.86125) (layer Cmts.User) (width 0.15) (tstamp 5C08CC77))
-  (gr_line (start 296.70375 34.76625) (end 296.70375 14.76375) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 324.32625 34.76625) (end 296.70375 34.76625) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 324.32625 14.76375) (end 324.32625 34.76625) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 296.70375 14.76375) (end 324.32625 14.76375) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 298.60875 32.86125) (end 298.60875 16.66875) (layer Cmts.User) (width 0.15))
-  (gr_line (start 322.42125 32.86125) (end 298.60875 32.86125) (layer Cmts.User) (width 0.15))
-  (gr_line (start 322.42125 16.66875) (end 322.42125 32.86125) (layer Cmts.User) (width 0.15))
-  (gr_line (start 298.60875 16.66875) (end 322.42125 16.66875) (layer Cmts.User) (width 0.15))
-  (gr_text "Mechanical Keyboards\n\nErgodox" (at 335.75625 56.67375) (layer B.SilkS)
+  (gr_text "Mechanical Keyboards\n\nLet's Split" (at 230.505 52.3875) (layer B.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
-  (gr_text "Mechanical Keyboards\n\nErgodox" (at 285.27375 56.67375) (layer B.SilkS)
+  (gr_line (start 275.74875 62.38875) (end 248.12625 62.38875) (layer Edge.Cuts) (width 0.15) (tstamp 5C08CC7E))
+  (gr_line (start 248.12625 62.38875) (end 248.12625 42.38625) (layer Edge.Cuts) (width 0.15) (tstamp 5C08CC7D))
+  (gr_line (start 248.12625 42.38625) (end 275.74875 42.38625) (layer Edge.Cuts) (width 0.15) (tstamp 5C08CC7C))
+  (gr_line (start 250.03125 60.48375) (end 250.03125 44.29125) (layer Cmts.User) (width 0.15) (tstamp 5C08CC7B))
+  (gr_line (start 250.03125 44.29125) (end 273.84375 44.29125) (layer Cmts.User) (width 0.15) (tstamp 5C08CC7A))
+  (gr_line (start 273.84375 60.48375) (end 250.03125 60.48375) (layer Cmts.User) (width 0.15) (tstamp 5C08CC79))
+  (gr_line (start 275.74875 42.38625) (end 275.74875 62.38875) (layer Edge.Cuts) (width 0.15) (tstamp 5C08CC78))
+  (gr_line (start 273.84375 44.29125) (end 273.84375 60.48375) (layer Cmts.User) (width 0.15) (tstamp 5C08CC77))
+  (gr_line (start 216.69375 62.38875) (end 216.69375 42.38625) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 244.31625 62.38875) (end 216.69375 62.38875) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 244.31625 42.38625) (end 244.31625 62.38875) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 216.69375 42.38625) (end 244.31625 42.38625) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 218.59875 60.48375) (end 218.59875 44.29125) (layer Cmts.User) (width 0.15))
+  (gr_line (start 242.41125 60.48375) (end 218.59875 60.48375) (layer Cmts.User) (width 0.15))
+  (gr_line (start 242.41125 44.29125) (end 242.41125 60.48375) (layer Cmts.User) (width 0.15))
+  (gr_line (start 218.59875 44.29125) (end 242.41125 44.29125) (layer Cmts.User) (width 0.15))
+  (gr_text "Mechanical Keyboards\n\nErgodox" (at 271.4625 121.92) (layer B.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
-  (gr_line (start 314.80125 45.24375) (end 348.615 45.24375) (layer Cmts.User) (width 0.15) (tstamp 5C08C2BC))
-  (gr_line (start 314.80125 74.77125) (end 314.80125 45.24375) (layer Cmts.User) (width 0.15) (tstamp 5C08C2BB))
-  (gr_line (start 348.615 74.77125) (end 314.80125 74.77125) (layer Cmts.User) (width 0.15) (tstamp 5C08C2BA))
-  (gr_line (start 348.615 45.24375) (end 348.615 74.77125) (layer Cmts.User) (width 0.15) (tstamp 5C08C2B9))
-  (gr_line (start 334.80375 68.58) (end 350.52 68.58) (layer Edge.Cuts) (width 0.15) (tstamp 5C08C2B8))
-  (gr_line (start 350.52 68.58) (end 350.52 43.33875) (layer Edge.Cuts) (width 0.15) (tstamp 5C08C2B7))
-  (gr_line (start 320.9925 58.1025) (end 312.42 63.34125) (layer Edge.Cuts) (width 0.15) (tstamp 5C08C2B6))
-  (gr_line (start 320.04 77.1525) (end 334.80375 68.58) (layer Edge.Cuts) (width 0.15) (tstamp 5C08C2B5))
-  (gr_line (start 350.52 43.33875) (end 320.9925 43.33875) (layer Edge.Cuts) (width 0.15) (tstamp 5C08C2B4))
-  (gr_line (start 320.9925 43.33875) (end 320.9925 58.1025) (layer Edge.Cuts) (width 0.15) (tstamp 5C08C2B3))
-  (gr_line (start 312.42 63.34125) (end 320.04 77.1525) (layer Edge.Cuts) (width 0.15) (tstamp 5C08C2B2))
-  (gr_line (start 270.51 68.58) (end 270.51 43.33875) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 286.22625 68.58) (end 270.51 68.58) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 300.99 77.1525) (end 286.22625 68.58) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 308.61 63.34125) (end 300.99 77.1525) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 300.0375 58.1025) (end 308.61 63.34125) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 300.0375 43.33875) (end 300.0375 58.1025) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 270.51 43.33875) (end 300.0375 43.33875) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 306.22875 45.24375) (end 272.415 45.24375) (layer Cmts.User) (width 0.15))
-  (gr_line (start 306.22875 74.77125) (end 306.22875 45.24375) (layer Cmts.User) (width 0.15))
-  (gr_line (start 272.415 74.77125) (end 306.22875 74.77125) (layer Cmts.User) (width 0.15))
-  (gr_line (start 272.415 45.24375) (end 272.415 74.77125) (layer Cmts.User) (width 0.15))
-  (gr_line (start 203.35875 104.775) (end 203.35875 74.77125) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 286.22625 104.775) (end 203.35875 104.775) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 286.22625 74.77125) (end 286.22625 104.775) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 203.35875 74.77125) (end 286.22625 74.77125) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 205.26375 102.87) (end 205.26375 76.67625) (layer Cmts.User) (width 0.15))
-  (gr_line (start 284.32125 102.87) (end 205.26375 102.87) (layer Cmts.User) (width 0.15))
-  (gr_line (start 284.32125 76.67625) (end 284.32125 102.87) (layer Cmts.User) (width 0.15))
-  (gr_line (start 205.26375 76.67625) (end 284.32125 76.67625) (layer Cmts.User) (width 0.15))
-  (gr_text "Mechanical Keyboards\n\nWyse 60" (at 245.745 89.535) (layer B.SilkS) (tstamp 5C08AB74)
+  (gr_text "Mechanical Keyboards\n\nErgodox" (at 220.98 121.92) (layer B.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
-  (gr_text "Mechanical Keyboards\n\n122-key ANSI" (at 148.59 91.44) (layer B.SilkS)
+  (gr_line (start 250.5075 110.49) (end 284.32125 110.49) (layer Cmts.User) (width 0.15) (tstamp 5C08C2BC))
+  (gr_line (start 250.5075 140.0175) (end 250.5075 110.49) (layer Cmts.User) (width 0.15) (tstamp 5C08C2BB))
+  (gr_line (start 284.32125 140.0175) (end 250.5075 140.0175) (layer Cmts.User) (width 0.15) (tstamp 5C08C2BA))
+  (gr_line (start 284.32125 110.49) (end 284.32125 140.0175) (layer Cmts.User) (width 0.15) (tstamp 5C08C2B9))
+  (gr_line (start 270.51 133.82625) (end 286.22625 133.82625) (layer Edge.Cuts) (width 0.15) (tstamp 5C08C2B8))
+  (gr_line (start 286.22625 133.82625) (end 286.22625 108.585) (layer Edge.Cuts) (width 0.15) (tstamp 5C08C2B7))
+  (gr_line (start 256.69875 123.34875) (end 248.12625 128.5875) (layer Edge.Cuts) (width 0.15) (tstamp 5C08C2B6))
+  (gr_line (start 255.74625 142.39875) (end 270.51 133.82625) (layer Edge.Cuts) (width 0.15) (tstamp 5C08C2B5))
+  (gr_line (start 286.22625 108.585) (end 256.69875 108.585) (layer Edge.Cuts) (width 0.15) (tstamp 5C08C2B4))
+  (gr_line (start 256.69875 108.585) (end 256.69875 123.34875) (layer Edge.Cuts) (width 0.15) (tstamp 5C08C2B3))
+  (gr_line (start 248.12625 128.5875) (end 255.74625 142.39875) (layer Edge.Cuts) (width 0.15) (tstamp 5C08C2B2))
+  (gr_line (start 206.21625 133.82625) (end 206.21625 108.585) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 221.9325 133.82625) (end 206.21625 133.82625) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 236.69625 142.39875) (end 221.9325 133.82625) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 244.31625 128.5875) (end 236.69625 142.39875) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 235.74375 123.34875) (end 244.31625 128.5875) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 235.74375 108.585) (end 235.74375 123.34875) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 206.21625 108.585) (end 235.74375 108.585) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 241.935 110.49) (end 208.12125 110.49) (layer Cmts.User) (width 0.15))
+  (gr_line (start 241.935 140.0175) (end 241.935 110.49) (layer Cmts.User) (width 0.15))
+  (gr_line (start 208.12125 140.0175) (end 241.935 140.0175) (layer Cmts.User) (width 0.15))
+  (gr_line (start 208.12125 110.49) (end 208.12125 140.0175) (layer Cmts.User) (width 0.15))
+  (gr_line (start 97.63125 104.775) (end 97.63125 74.77125) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 180.49875 104.775) (end 97.63125 104.775) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 180.49875 74.77125) (end 180.49875 104.775) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 97.63125 74.77125) (end 180.49875 74.77125) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 99.53625 102.87) (end 99.53625 76.67625) (layer Cmts.User) (width 0.15))
+  (gr_line (start 178.59375 102.87) (end 99.53625 102.87) (layer Cmts.User) (width 0.15))
+  (gr_line (start 178.59375 76.67625) (end 178.59375 102.87) (layer Cmts.User) (width 0.15))
+  (gr_line (start 99.53625 76.67625) (end 178.59375 76.67625) (layer Cmts.User) (width 0.15))
+  (gr_text "Mechanical Keyboards\n\nWyse 60" (at 140.0175 89.535) (layer B.SilkS) (tstamp 5C08AB74)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
+  )
+  (gr_text "Mechanical Keyboards\n\n122-key ANSI" (at 235.2675 88.10625) (layer B.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
   (gr_text "Mechanical Keyboards\n\nG80-1800" (at 53.81625 90.4875) (layer B.SilkS)
@@ -11120,14 +12143,14 @@
   (gr_text "Mechanical Keyboards\n\n60% ANSI" (at 45.72 26.67) (layer B.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
-  (gr_line (start 97.63125 108.10875) (end 97.63125 74.77125) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 199.54875 108.10875) (end 97.63125 108.10875) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 199.54875 74.77125) (end 199.54875 108.10875) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 97.63125 74.77125) (end 199.54875 74.77125) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 197.64375 76.67625) (end 99.53625 76.67625) (layer Cmts.User) (width 0.15))
-  (gr_line (start 197.64375 106.20375) (end 197.64375 76.67625) (layer Cmts.User) (width 0.15))
-  (gr_line (start 99.53625 106.20375) (end 197.64375 106.20375) (layer Cmts.User) (width 0.15))
-  (gr_line (start 99.53625 76.67625) (end 99.53625 106.20375) (layer Cmts.User) (width 0.15))
+  (gr_line (start 184.30875 104.775) (end 184.30875 71.4375) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 286.22625 104.775) (end 184.30875 104.775) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 286.22625 71.4375) (end 286.22625 104.775) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 184.30875 71.4375) (end 286.22625 71.4375) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 284.32125 73.3425) (end 186.21375 73.3425) (layer Cmts.User) (width 0.15))
+  (gr_line (start 284.32125 102.87) (end 284.32125 73.3425) (layer Cmts.User) (width 0.15))
+  (gr_line (start 186.21375 102.87) (end 284.32125 102.87) (layer Cmts.User) (width 0.15))
+  (gr_line (start 186.21375 73.3425) (end 186.21375 102.87) (layer Cmts.User) (width 0.15))
   (gr_line (start 292.89375 38.57625) (end 222.40875 38.57625) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 292.89375 14.76375) (end 292.89375 38.57625) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 222.40875 14.76375) (end 292.89375 14.76375) (layer Edge.Cuts) (width 0.15))
@@ -11242,12 +12265,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 113.3475 77.1525) (xy 159.0675 77.1525) (xy 159.0675 84.7725) (xy 113.3475 84.7725)
+        (xy 200.025 73.81875) (xy 245.745 73.81875) (xy 245.745 81.43875) (xy 200.025 81.43875)
       )
     )
     (filled_polygon
       (pts
-        (xy 158.9405 84.6455) (xy 113.4745 84.6455) (xy 113.4745 77.2795) (xy 158.9405 77.2795)
+        (xy 245.618 81.31175) (xy 200.152 81.31175) (xy 200.152 73.94575) (xy 245.618 73.94575)
       )
     )
   )
@@ -11257,12 +12280,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 107.6325 86.6775) (xy 107.6325 105.7275) (xy 100.0125 105.7275) (xy 100.0125 86.6775)
+        (xy 194.31 83.34375) (xy 194.31 102.39375) (xy 186.69 102.39375) (xy 186.69 83.34375)
       )
     )
     (filled_polygon
       (pts
-        (xy 107.5055 105.6005) (xy 100.1395 105.6005) (xy 100.1395 86.8045) (xy 107.5055 86.8045)
+        (xy 194.183 102.26675) (xy 186.817 102.26675) (xy 186.817 83.47075) (xy 194.183 83.47075)
       )
     )
   )
@@ -11272,19 +12295,19 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 109.5375 105.7275) (xy 115.2525 105.7275) (xy 115.2525 101.9175) (xy 119.0625 101.9175) (xy 119.0625 105.7275)
-        (xy 157.1625 105.7275) (xy 157.1625 101.9175) (xy 160.9725 101.9175) (xy 160.9725 105.7275) (xy 166.6875 105.7275)
-        (xy 166.6875 86.6775) (xy 109.5375 86.6775)
+        (xy 196.215 102.39375) (xy 201.93 102.39375) (xy 201.93 98.58375) (xy 205.74 98.58375) (xy 205.74 102.39375)
+        (xy 243.84 102.39375) (xy 243.84 98.58375) (xy 247.65 98.58375) (xy 247.65 102.39375) (xy 253.365 102.39375)
+        (xy 253.365 83.34375) (xy 196.215 83.34375)
       )
     )
     (filled_polygon
       (pts
-        (xy 166.5605 105.6005) (xy 161.0995 105.6005) (xy 161.0995 101.9175) (xy 161.089833 101.868899) (xy 161.062303 101.827697)
-        (xy 161.021101 101.800167) (xy 160.9725 101.7905) (xy 157.1625 101.7905) (xy 157.113899 101.800167) (xy 157.072697 101.827697)
-        (xy 157.045167 101.868899) (xy 157.0355 101.9175) (xy 157.0355 105.6005) (xy 119.1895 105.6005) (xy 119.1895 101.9175)
-        (xy 119.179833 101.868899) (xy 119.152303 101.827697) (xy 119.111101 101.800167) (xy 119.0625 101.7905) (xy 115.2525 101.7905)
-        (xy 115.203899 101.800167) (xy 115.162697 101.827697) (xy 115.135167 101.868899) (xy 115.1255 101.9175) (xy 115.1255 105.6005)
-        (xy 109.6645 105.6005) (xy 109.6645 86.8045) (xy 166.5605 86.8045)
+        (xy 253.238 102.26675) (xy 247.777 102.26675) (xy 247.777 98.58375) (xy 247.767333 98.535149) (xy 247.739803 98.493947)
+        (xy 247.698601 98.466417) (xy 247.65 98.45675) (xy 243.84 98.45675) (xy 243.791399 98.466417) (xy 243.750197 98.493947)
+        (xy 243.722667 98.535149) (xy 243.713 98.58375) (xy 243.713 102.26675) (xy 205.867 102.26675) (xy 205.867 98.58375)
+        (xy 205.857333 98.535149) (xy 205.829803 98.493947) (xy 205.788601 98.466417) (xy 205.74 98.45675) (xy 201.93 98.45675)
+        (xy 201.881399 98.466417) (xy 201.840197 98.493947) (xy 201.812667 98.535149) (xy 201.803 98.58375) (xy 201.803 102.26675)
+        (xy 196.342 102.26675) (xy 196.342 83.47075) (xy 253.238 83.47075)
       )
     )
   )
@@ -11294,22 +12317,22 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 168.5925 86.6775) (xy 168.5925 94.2975) (xy 172.4025 94.2975) (xy 172.4025 98.1075) (xy 168.5925 98.1075)
-        (xy 168.5925 101.9175) (xy 172.4025 101.9175) (xy 172.4025 105.7275) (xy 176.2125 105.7275) (xy 176.2125 101.9175)
-        (xy 180.0225 101.9175) (xy 180.0225 98.1075) (xy 176.2125 98.1075) (xy 176.2125 94.2975) (xy 180.0225 94.2975)
-        (xy 180.0225 86.6775)
+        (xy 255.27 83.34375) (xy 255.27 90.96375) (xy 259.08 90.96375) (xy 259.08 94.77375) (xy 255.27 94.77375)
+        (xy 255.27 98.58375) (xy 259.08 98.58375) (xy 259.08 102.39375) (xy 262.89 102.39375) (xy 262.89 98.58375)
+        (xy 266.7 98.58375) (xy 266.7 94.77375) (xy 262.89 94.77375) (xy 262.89 90.96375) (xy 266.7 90.96375)
+        (xy 266.7 83.34375)
       )
     )
     (filled_polygon
       (pts
-        (xy 179.8955 94.1705) (xy 176.2125 94.1705) (xy 176.163899 94.180167) (xy 176.122697 94.207697) (xy 176.095167 94.248899)
-        (xy 176.0855 94.2975) (xy 176.0855 98.1075) (xy 176.095167 98.156101) (xy 176.122697 98.197303) (xy 176.163899 98.224833)
-        (xy 176.2125 98.2345) (xy 179.8955 98.2345) (xy 179.8955 101.7905) (xy 176.2125 101.7905) (xy 176.163899 101.800167)
-        (xy 176.122697 101.827697) (xy 176.095167 101.868899) (xy 176.0855 101.9175) (xy 176.0855 105.6005) (xy 172.5295 105.6005)
-        (xy 172.5295 101.9175) (xy 172.519833 101.868899) (xy 172.492303 101.827697) (xy 172.451101 101.800167) (xy 172.4025 101.7905)
-        (xy 168.7195 101.7905) (xy 168.7195 98.2345) (xy 172.4025 98.2345) (xy 172.451101 98.224833) (xy 172.492303 98.197303)
-        (xy 172.519833 98.156101) (xy 172.5295 98.1075) (xy 172.5295 94.2975) (xy 172.519833 94.248899) (xy 172.492303 94.207697)
-        (xy 172.451101 94.180167) (xy 172.4025 94.1705) (xy 168.7195 94.1705) (xy 168.7195 86.8045) (xy 179.8955 86.8045)
+        (xy 266.573 90.83675) (xy 262.89 90.83675) (xy 262.841399 90.846417) (xy 262.800197 90.873947) (xy 262.772667 90.915149)
+        (xy 262.763 90.96375) (xy 262.763 94.77375) (xy 262.772667 94.822351) (xy 262.800197 94.863553) (xy 262.841399 94.891083)
+        (xy 262.89 94.90075) (xy 266.573 94.90075) (xy 266.573 98.45675) (xy 262.89 98.45675) (xy 262.841399 98.466417)
+        (xy 262.800197 98.493947) (xy 262.772667 98.535149) (xy 262.763 98.58375) (xy 262.763 102.26675) (xy 259.207 102.26675)
+        (xy 259.207 98.58375) (xy 259.197333 98.535149) (xy 259.169803 98.493947) (xy 259.128601 98.466417) (xy 259.08 98.45675)
+        (xy 255.397 98.45675) (xy 255.397 94.90075) (xy 259.08 94.90075) (xy 259.128601 94.891083) (xy 259.169803 94.863553)
+        (xy 259.197333 94.822351) (xy 259.207 94.77375) (xy 259.207 90.96375) (xy 259.197333 90.915149) (xy 259.169803 90.873947)
+        (xy 259.128601 90.846417) (xy 259.08 90.83675) (xy 255.397 90.83675) (xy 255.397 83.47075) (xy 266.573 83.47075)
       )
     )
   )
@@ -11319,12 +12342,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 181.9275 86.6775) (xy 181.9275 105.7275) (xy 197.1675 105.7275) (xy 197.1675 86.6775)
+        (xy 268.605 83.34375) (xy 268.605 102.39375) (xy 283.845 102.39375) (xy 283.845 83.34375)
       )
     )
     (filled_polygon
       (pts
-        (xy 197.0405 105.6005) (xy 182.0545 105.6005) (xy 182.0545 86.8045) (xy 197.0405 86.8045)
+        (xy 283.718 102.26675) (xy 268.732 102.26675) (xy 268.732 83.47075) (xy 283.718 83.47075)
       )
     )
   )
@@ -11779,12 +12802,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 205.74 77.1525) (xy 220.98 77.1525) (xy 220.98 80.9625) (xy 205.74 80.9625)
+        (xy 100.0125 77.1525) (xy 115.2525 77.1525) (xy 115.2525 80.9625) (xy 100.0125 80.9625)
       )
     )
     (filled_polygon
       (pts
-        (xy 220.853 80.8355) (xy 205.867 80.8355) (xy 205.867 77.2795) (xy 220.853 77.2795)
+        (xy 115.1255 80.8355) (xy 100.1395 80.8355) (xy 100.1395 77.2795) (xy 115.1255 77.2795)
       )
     )
   )
@@ -11794,15 +12817,15 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508) (smoothing fillet) (radius 0.5))
     (polygon
       (pts
-        (xy 223.36125 80.9625) (xy 238.60125 80.9625) (xy 238.60125 77.1525) (xy 223.36125 77.1525)
+        (xy 117.63375 80.9625) (xy 132.87375 80.9625) (xy 132.87375 77.1525) (xy 117.63375 77.1525)
       )
     )
     (filled_polygon
       (pts
-        (xy 238.285509 77.333352) (xy 238.420398 77.468241) (xy 238.47425 77.669221) (xy 238.47425 80.445779) (xy 238.420398 80.646759)
-        (xy 238.285509 80.781648) (xy 238.084529 80.8355) (xy 223.877971 80.8355) (xy 223.676991 80.781648) (xy 223.542102 80.646759)
-        (xy 223.48825 80.445779) (xy 223.48825 77.669221) (xy 223.542102 77.468241) (xy 223.676991 77.333352) (xy 223.877971 77.2795)
-        (xy 238.084529 77.2795)
+        (xy 132.558009 77.333352) (xy 132.692898 77.468241) (xy 132.74675 77.669221) (xy 132.74675 80.445779) (xy 132.692898 80.646759)
+        (xy 132.558009 80.781648) (xy 132.357029 80.8355) (xy 118.150471 80.8355) (xy 117.949491 80.781648) (xy 117.814602 80.646759)
+        (xy 117.76075 80.445779) (xy 117.76075 77.669221) (xy 117.814602 77.468241) (xy 117.949491 77.333352) (xy 118.150471 77.2795)
+        (xy 132.357029 77.2795)
       )
     )
   )
@@ -11812,14 +12835,14 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508) (smoothing fillet) (radius 0.2))
     (polygon
       (pts
-        (xy 240.9825 77.1525) (xy 240.9825 80.9625) (xy 256.2225 80.9625) (xy 256.2225 77.1525)
+        (xy 135.255 77.1525) (xy 135.255 80.9625) (xy 150.495 80.9625) (xy 150.495 77.1525)
       )
     )
     (filled_polygon
       (pts
-        (xy 256.066719 77.308281) (xy 256.0955 77.377763) (xy 256.0955 80.737237) (xy 256.066719 80.806719) (xy 255.997237 80.8355)
-        (xy 241.207763 80.8355) (xy 241.138281 80.806719) (xy 241.1095 80.737237) (xy 241.1095 77.377763) (xy 241.138281 77.308281)
-        (xy 241.207763 77.2795) (xy 255.997237 77.2795)
+        (xy 150.339219 77.308281) (xy 150.368 77.377763) (xy 150.368 80.737237) (xy 150.339219 80.806719) (xy 150.269737 80.8355)
+        (xy 135.480263 80.8355) (xy 135.410781 80.806719) (xy 135.382 80.737237) (xy 135.382 77.377763) (xy 135.410781 77.308281)
+        (xy 135.480263 77.2795) (xy 150.269737 77.2795)
       )
     )
   )
@@ -11829,12 +12852,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 258.60375 77.1525) (xy 273.84375 77.1525) (xy 273.84375 80.9625) (xy 258.60375 80.9625)
+        (xy 152.87625 77.1525) (xy 168.11625 77.1525) (xy 168.11625 80.9625) (xy 152.87625 80.9625)
       )
     )
     (filled_polygon
       (pts
-        (xy 273.71675 80.8355) (xy 258.73075 80.8355) (xy 258.73075 77.2795) (xy 273.71675 77.2795)
+        (xy 167.98925 80.8355) (xy 153.00325 80.8355) (xy 153.00325 77.2795) (xy 167.98925 77.2795)
       )
     )
   )
@@ -11844,12 +12867,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 276.225 77.1525) (xy 283.845 77.1525) (xy 283.845 80.9625) (xy 276.225 80.9625)
+        (xy 170.4975 77.1525) (xy 178.1175 77.1525) (xy 178.1175 80.9625) (xy 170.4975 80.9625)
       )
     )
     (filled_polygon
       (pts
-        (xy 283.718 80.8355) (xy 276.352 80.8355) (xy 276.352 77.2795) (xy 283.718 77.2795)
+        (xy 177.9905 80.8355) (xy 170.6245 80.8355) (xy 170.6245 77.2795) (xy 177.9905 77.2795)
       )
     )
   )
@@ -11859,12 +12882,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 268.605 83.34375) (xy 268.605 102.39375) (xy 283.845 102.39375) (xy 283.845 83.34375)
+        (xy 162.8775 83.34375) (xy 162.8775 102.39375) (xy 178.1175 102.39375) (xy 178.1175 83.34375)
       )
     )
     (filled_polygon
       (pts
-        (xy 283.718 102.26675) (xy 268.732 102.26675) (xy 268.732 83.47075) (xy 283.718 83.47075)
+        (xy 177.9905 102.26675) (xy 163.0045 102.26675) (xy 163.0045 83.47075) (xy 177.9905 83.47075)
       )
     )
   )
@@ -11874,12 +12897,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 265.7475 83.34375) (xy 265.7475 102.39375) (xy 205.74 102.39375) (xy 205.74 83.34375)
+        (xy 160.02 83.34375) (xy 160.02 102.39375) (xy 100.0125 102.39375) (xy 100.0125 83.34375)
       )
     )
     (filled_polygon
       (pts
-        (xy 265.6205 102.26675) (xy 205.867 102.26675) (xy 205.867 83.47075) (xy 265.6205 83.47075)
+        (xy 159.893 102.26675) (xy 100.1395 102.26675) (xy 100.1395 83.47075) (xy 159.893 83.47075)
       )
     )
   )
@@ -11889,25 +12912,25 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 290.03625 61.43625) (xy 290.03625 64.77) (xy 286.22625 64.77) (xy 286.22625 65.24625) (xy 282.41625 65.24625)
-        (xy 282.41625 66.19875) (xy 274.79625 66.19875) (xy 274.79625 62.38875) (xy 272.89125 62.38875) (xy 272.89125 47.14875)
-        (xy 282.41625 47.14875) (xy 282.41625 46.19625) (xy 286.22625 46.19625) (xy 286.22625 45.72) (xy 290.03625 45.72)
-        (xy 290.03625 46.19625) (xy 293.84625 46.19625) (xy 293.84625 46.6725) (xy 297.65625 46.6725) (xy 297.65625 61.43625)
+        (xy 225.7425 126.6825) (xy 225.7425 130.01625) (xy 221.9325 130.01625) (xy 221.9325 130.4925) (xy 218.1225 130.4925)
+        (xy 218.1225 131.445) (xy 210.5025 131.445) (xy 210.5025 127.635) (xy 208.5975 127.635) (xy 208.5975 112.395)
+        (xy 218.1225 112.395) (xy 218.1225 111.4425) (xy 221.9325 111.4425) (xy 221.9325 110.96625) (xy 225.7425 110.96625)
+        (xy 225.7425 111.4425) (xy 229.5525 111.4425) (xy 229.5525 111.91875) (xy 233.3625 111.91875) (xy 233.3625 126.6825)
       )
     )
     (filled_polygon
       (pts
-        (xy 289.90925 46.19625) (xy 289.918917 46.244851) (xy 289.946447 46.286053) (xy 289.987649 46.313583) (xy 290.03625 46.32325)
-        (xy 293.71925 46.32325) (xy 293.71925 46.6725) (xy 293.728917 46.721101) (xy 293.756447 46.762303) (xy 293.797649 46.789833)
-        (xy 293.84625 46.7995) (xy 297.52925 46.7995) (xy 297.52925 61.30925) (xy 290.03625 61.30925) (xy 289.987649 61.318917)
-        (xy 289.946447 61.346447) (xy 289.918917 61.387649) (xy 289.90925 61.43625) (xy 289.90925 64.643) (xy 286.22625 64.643)
-        (xy 286.177649 64.652667) (xy 286.136447 64.680197) (xy 286.108917 64.721399) (xy 286.09925 64.77) (xy 286.09925 65.11925)
-        (xy 282.41625 65.11925) (xy 282.367649 65.128917) (xy 282.326447 65.156447) (xy 282.298917 65.197649) (xy 282.28925 65.24625)
-        (xy 282.28925 66.07175) (xy 274.92325 66.07175) (xy 274.92325 62.38875) (xy 274.913583 62.340149) (xy 274.886053 62.298947)
-        (xy 274.844851 62.271417) (xy 274.79625 62.26175) (xy 273.01825 62.26175) (xy 273.01825 47.27575) (xy 282.41625 47.27575)
-        (xy 282.464851 47.266083) (xy 282.506053 47.238553) (xy 282.533583 47.197351) (xy 282.54325 47.14875) (xy 282.54325 46.32325)
-        (xy 286.22625 46.32325) (xy 286.274851 46.313583) (xy 286.316053 46.286053) (xy 286.343583 46.244851) (xy 286.35325 46.19625)
-        (xy 286.35325 45.847) (xy 289.90925 45.847)
+        (xy 225.6155 111.4425) (xy 225.625167 111.491101) (xy 225.652697 111.532303) (xy 225.693899 111.559833) (xy 225.7425 111.5695)
+        (xy 229.4255 111.5695) (xy 229.4255 111.91875) (xy 229.435167 111.967351) (xy 229.462697 112.008553) (xy 229.503899 112.036083)
+        (xy 229.5525 112.04575) (xy 233.2355 112.04575) (xy 233.2355 126.5555) (xy 225.7425 126.5555) (xy 225.693899 126.565167)
+        (xy 225.652697 126.592697) (xy 225.625167 126.633899) (xy 225.6155 126.6825) (xy 225.6155 129.88925) (xy 221.9325 129.88925)
+        (xy 221.883899 129.898917) (xy 221.842697 129.926447) (xy 221.815167 129.967649) (xy 221.8055 130.01625) (xy 221.8055 130.3655)
+        (xy 218.1225 130.3655) (xy 218.073899 130.375167) (xy 218.032697 130.402697) (xy 218.005167 130.443899) (xy 217.9955 130.4925)
+        (xy 217.9955 131.318) (xy 210.6295 131.318) (xy 210.6295 127.635) (xy 210.619833 127.586399) (xy 210.592303 127.545197)
+        (xy 210.551101 127.517667) (xy 210.5025 127.508) (xy 208.7245 127.508) (xy 208.7245 112.522) (xy 218.1225 112.522)
+        (xy 218.171101 112.512333) (xy 218.212303 112.484803) (xy 218.239833 112.443601) (xy 218.2495 112.395) (xy 218.2495 111.5695)
+        (xy 221.9325 111.5695) (xy 221.981101 111.559833) (xy 222.022303 111.532303) (xy 222.049833 111.491101) (xy 222.0595 111.4425)
+        (xy 222.0595 111.09325) (xy 225.6155 111.09325)
       )
     )
   )
@@ -11917,15 +12940,15 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 298.60875 60.0075) (xy 305.78425 64.008) (xy 299.94225 74.168) (xy 289.52825 68.072) (xy 293.37 61.43625)
-        (xy 297.65625 61.43625) (xy 297.65625 61.9125)
+        (xy 234.315 125.25375) (xy 241.4905 129.25425) (xy 235.6485 139.41425) (xy 225.2345 133.31825) (xy 229.07625 126.6825)
+        (xy 233.3625 126.6825) (xy 233.3625 127.15875)
       )
     )
     (filled_polygon
       (pts
-        (xy 305.610004 64.056258) (xy 299.895952 73.99374) (xy 289.701487 68.026248) (xy 293.443222 61.56325) (xy 297.52925 61.56325)
-        (xy 297.52925 61.9125) (xy 297.538917 61.961101) (xy 297.566447 62.002303) (xy 297.607649 62.029833) (xy 297.65625 62.0395)
-        (xy 297.704851 62.029833) (xy 297.746053 62.002303) (xy 297.769842 61.969296) (xy 298.662934 60.183112)
+        (xy 241.316254 129.302508) (xy 235.602202 139.23999) (xy 225.407737 133.272498) (xy 229.149472 126.8095) (xy 233.2355 126.8095)
+        (xy 233.2355 127.15875) (xy 233.245167 127.207351) (xy 233.272697 127.248553) (xy 233.313899 127.276083) (xy 233.3625 127.28575)
+        (xy 233.411101 127.276083) (xy 233.452303 127.248553) (xy 233.476092 127.215546) (xy 234.369184 125.429362)
       )
     )
   )
@@ -11935,29 +12958,29 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 334.80375 46.19625) (xy 338.61375 46.19625) (xy 338.61375 47.14875) (xy 348.13875 47.14875) (xy 348.13875 62.38875)
-        (xy 346.23375 62.38875) (xy 346.23375 66.19875) (xy 338.61375 66.19875) (xy 338.61375 65.24625) (xy 334.80375 65.24625)
-        (xy 334.80375 64.77) (xy 330.99375 64.77) (xy 330.99375 61.43625) (xy 327.66 61.43625) (xy 331.50175 68.072)
-        (xy 321.08775 74.168) (xy 315.24575 64.008) (xy 322.42125 60.0075) (xy 323.37375 61.9125) (xy 323.37375 46.6725)
-        (xy 327.18375 46.6725) (xy 327.18375 46.19625) (xy 330.99375 46.19625) (xy 330.99375 45.72) (xy 334.80375 45.72)
+        (xy 270.51 111.4425) (xy 274.32 111.4425) (xy 274.32 112.395) (xy 283.845 112.395) (xy 283.845 127.635)
+        (xy 281.94 127.635) (xy 281.94 131.445) (xy 274.32 131.445) (xy 274.32 130.4925) (xy 270.51 130.4925)
+        (xy 270.51 130.01625) (xy 266.7 130.01625) (xy 266.7 126.6825) (xy 263.36625 126.6825) (xy 267.208 133.31825)
+        (xy 256.794 139.41425) (xy 250.952 129.25425) (xy 258.1275 125.25375) (xy 259.08 127.15875) (xy 259.08 111.91875)
+        (xy 262.89 111.91875) (xy 262.89 111.4425) (xy 266.7 111.4425) (xy 266.7 110.96625) (xy 270.51 110.96625)
       )
     )
     (filled_polygon
       (pts
-        (xy 334.67675 46.19625) (xy 334.686417 46.244851) (xy 334.713947 46.286053) (xy 334.755149 46.313583) (xy 334.80375 46.32325)
-        (xy 338.48675 46.32325) (xy 338.48675 47.14875) (xy 338.496417 47.197351) (xy 338.523947 47.238553) (xy 338.565149 47.266083)
-        (xy 338.61375 47.27575) (xy 348.01175 47.27575) (xy 348.01175 62.26175) (xy 346.23375 62.26175) (xy 346.185149 62.271417)
-        (xy 346.143947 62.298947) (xy 346.116417 62.340149) (xy 346.10675 62.38875) (xy 346.10675 66.07175) (xy 338.74075 66.07175)
-        (xy 338.74075 65.24625) (xy 338.731083 65.197649) (xy 338.703553 65.156447) (xy 338.662351 65.128917) (xy 338.61375 65.11925)
-        (xy 334.93075 65.11925) (xy 334.93075 64.77) (xy 334.921083 64.721399) (xy 334.893553 64.680197) (xy 334.852351 64.652667)
-        (xy 334.80375 64.643) (xy 331.12075 64.643) (xy 331.12075 61.43625) (xy 331.111083 61.387649) (xy 331.083553 61.346447)
-        (xy 331.042351 61.318917) (xy 330.99375 61.30925) (xy 327.66 61.30925) (xy 327.611399 61.318917) (xy 327.570197 61.346447)
-        (xy 327.542667 61.387649) (xy 327.533 61.43625) (xy 327.550091 61.499882) (xy 331.328513 68.026248) (xy 321.134048 73.99374)
-        (xy 315.419996 64.056258) (xy 322.367066 60.183112) (xy 323.260158 61.969296) (xy 323.290539 62.008443) (xy 323.333589 62.032983)
-        (xy 323.382753 62.03918) (xy 323.430546 62.026092) (xy 323.469693 61.995711) (xy 323.494233 61.952661) (xy 323.50075 61.9125)
-        (xy 323.50075 46.7995) (xy 327.18375 46.7995) (xy 327.232351 46.789833) (xy 327.273553 46.762303) (xy 327.301083 46.721101)
-        (xy 327.31075 46.6725) (xy 327.31075 46.32325) (xy 330.99375 46.32325) (xy 331.042351 46.313583) (xy 331.083553 46.286053)
-        (xy 331.111083 46.244851) (xy 331.12075 46.19625) (xy 331.12075 45.847) (xy 334.67675 45.847)
+        (xy 270.383 111.4425) (xy 270.392667 111.491101) (xy 270.420197 111.532303) (xy 270.461399 111.559833) (xy 270.51 111.5695)
+        (xy 274.193 111.5695) (xy 274.193 112.395) (xy 274.202667 112.443601) (xy 274.230197 112.484803) (xy 274.271399 112.512333)
+        (xy 274.32 112.522) (xy 283.718 112.522) (xy 283.718 127.508) (xy 281.94 127.508) (xy 281.891399 127.517667)
+        (xy 281.850197 127.545197) (xy 281.822667 127.586399) (xy 281.813 127.635) (xy 281.813 131.318) (xy 274.447 131.318)
+        (xy 274.447 130.4925) (xy 274.437333 130.443899) (xy 274.409803 130.402697) (xy 274.368601 130.375167) (xy 274.32 130.3655)
+        (xy 270.637 130.3655) (xy 270.637 130.01625) (xy 270.627333 129.967649) (xy 270.599803 129.926447) (xy 270.558601 129.898917)
+        (xy 270.51 129.88925) (xy 266.827 129.88925) (xy 266.827 126.6825) (xy 266.817333 126.633899) (xy 266.789803 126.592697)
+        (xy 266.748601 126.565167) (xy 266.7 126.5555) (xy 263.36625 126.5555) (xy 263.317649 126.565167) (xy 263.276447 126.592697)
+        (xy 263.248917 126.633899) (xy 263.23925 126.6825) (xy 263.256341 126.746132) (xy 267.034763 133.272498) (xy 256.840298 139.23999)
+        (xy 251.126246 129.302508) (xy 258.073316 125.429362) (xy 258.966408 127.215546) (xy 258.996789 127.254693) (xy 259.039839 127.279233)
+        (xy 259.089003 127.28543) (xy 259.136796 127.272342) (xy 259.175943 127.241961) (xy 259.200483 127.198911) (xy 259.207 127.15875)
+        (xy 259.207 112.04575) (xy 262.89 112.04575) (xy 262.938601 112.036083) (xy 262.979803 112.008553) (xy 263.007333 111.967351)
+        (xy 263.017 111.91875) (xy 263.017 111.5695) (xy 266.7 111.5695) (xy 266.748601 111.559833) (xy 266.789803 111.532303)
+        (xy 266.817333 111.491101) (xy 266.827 111.4425) (xy 266.827 111.09325) (xy 270.383 111.09325)
       )
     )
   )
@@ -11967,12 +12990,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 299.085 17.145) (xy 321.945 17.145) (xy 321.945 32.385) (xy 299.085 32.385)
+        (xy 219.075 44.7675) (xy 241.935 44.7675) (xy 241.935 60.0075) (xy 219.075 60.0075)
       )
     )
     (filled_polygon
       (pts
-        (xy 321.818 32.258) (xy 299.212 32.258) (xy 299.212 17.272) (xy 321.818 17.272)
+        (xy 241.808 59.8805) (xy 219.202 59.8805) (xy 219.202 44.8945) (xy 241.808 44.8945)
       )
     )
   )
@@ -11982,12 +13005,80 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 330.5175 17.145) (xy 353.3775 17.145) (xy 353.3775 32.385) (xy 330.5175 32.385)
+        (xy 250.5075 44.7675) (xy 273.3675 44.7675) (xy 273.3675 60.0075) (xy 250.5075 60.0075)
       )
     )
     (filled_polygon
       (pts
-        (xy 353.2505 32.258) (xy 330.6445 32.258) (xy 330.6445 17.272) (xy 353.2505 17.272)
+        (xy 273.2405 59.8805) (xy 250.6345 59.8805) (xy 250.6345 44.8945) (xy 273.2405 44.8945)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5C08CD2A) (hatch edge 0.508)
+    (connect_pads (clearance 0))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 17.145 112.395) (xy 74.295 112.395) (xy 74.295 127.635) (xy 70.485 127.635) (xy 70.485 131.445)
+        (xy 17.145 131.445)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 74.168 127.508) (xy 70.485 127.508) (xy 70.436399 127.517667) (xy 70.395197 127.545197) (xy 70.367667 127.586399)
+        (xy 70.358 127.635) (xy 70.358 131.318) (xy 17.272 131.318) (xy 17.272 112.522) (xy 74.168 112.522)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5C08CD29) (hatch edge 0.508)
+    (connect_pads (clearance 0))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 75.2475 124.7775) (xy 79.0575 124.7775) (xy 79.0575 128.5875) (xy 82.8675 128.5875) (xy 82.8675 132.3975)
+        (xy 71.4375 132.3975) (xy 71.4375 128.5875) (xy 75.2475 128.5875)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 78.9305 128.5875) (xy 78.940167 128.636101) (xy 78.967697 128.677303) (xy 79.008899 128.704833) (xy 79.0575 128.7145)
+        (xy 82.7405 128.7145) (xy 82.7405 132.2705) (xy 71.5645 132.2705) (xy 71.5645 128.7145) (xy 75.2475 128.7145)
+        (xy 75.296101 128.704833) (xy 75.337303 128.677303) (xy 75.364833 128.636101) (xy 75.3745 128.5875) (xy 75.3745 124.9045)
+        (xy 78.9305 124.9045)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 0) (hatch edge 0.508)
+    (connect_pads (clearance 0))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 80.01 127.635) (xy 80.01 112.395) (xy 95.25 112.395) (xy 95.25 131.445) (xy 83.82 131.445)
+        (xy 83.82 127.635)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 95.123 131.318) (xy 83.947 131.318) (xy 83.947 127.635) (xy 83.937333 127.586399) (xy 83.909803 127.545197)
+        (xy 83.868601 127.517667) (xy 83.82 127.508) (xy 80.137 127.508) (xy 80.137 112.522) (xy 95.123 112.522)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 0) (hatch edge 0.508)
+    (connect_pads (clearance 0))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 75.2475 112.395) (xy 79.0575 112.395) (xy 79.0575 120.015) (xy 75.2475 120.015)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 78.9305 119.888) (xy 75.3745 119.888) (xy 75.3745 112.522) (xy 78.9305 112.522)
       )
     )
   )
